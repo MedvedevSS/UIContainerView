@@ -13,6 +13,7 @@
 		323A1624261DD1A900BB5F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A1622261DD1A900BB5F79 /* Main.storyboard */; };
 		323A1626261DD1A900BB5F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323A1625261DD1A900BB5F79 /* Assets.xcassets */; };
 		323A1629261DD1A900BB5F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A1627261DD1A900BB5F79 /* LaunchScreen.storyboard */; };
+		323A1633261DD66800BB5F79 /* DetaelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A1632261DD66700BB5F79 /* DetaelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		323A1625261DD1A900BB5F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323A1628261DD1A900BB5F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323A162A261DD1A900BB5F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A1632261DD66700BB5F79 /* DetaelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				323A161C261DD1A900BB5F79 /* AppDelegate.swift */,
 				323A161E261DD1A900BB5F79 /* SceneDelegate.swift */,
 				323A1620261DD1A900BB5F79 /* ViewController.swift */,
+				323A1632261DD66700BB5F79 /* DetaelViewController.swift */,
 				323A1622261DD1A900BB5F79 /* Main.storyboard */,
 				323A1625261DD1A900BB5F79 /* Assets.xcassets */,
 				323A1627261DD1A900BB5F79 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				323A1621261DD1A900BB5F79 /* ViewController.swift in Sources */,
 				323A161D261DD1A900BB5F79 /* AppDelegate.swift in Sources */,
 				323A161F261DD1A900BB5F79 /* SceneDelegate.swift in Sources */,
+				323A1633261DD66800BB5F79 /* DetaelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = devGod.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = devGod.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
